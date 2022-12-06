@@ -1,3 +1,6 @@
 [submodule "workout-frontend"]
 	path = workout-frontend
 	url = git@github.com:kadebhug/workout-frontend.git
+[submodule "workout-server"]
+	path = workout-server
+	url = git@github.com:kadebhug/workout-server.git
