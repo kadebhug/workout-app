@@ -12,7 +12,9 @@
     "watch": "concurrently \"npm run workout-server\" \"npm run workout-frontend\"",
     "deploy": "npm run build --prefix workout-frontend && npm start --prefix workout-server",
     "deploy-cluster": "npm run build --prefix workout-frontend && npm run cluster --prefix workout-server",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docker-start": "cd docker && docker-compose up -d",
+    "docker-down": "cd docker && docker-compose down"
   },
   "keywords": [],
   "author": "",
